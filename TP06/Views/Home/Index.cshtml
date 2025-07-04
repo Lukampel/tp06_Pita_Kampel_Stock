@@ -2,7 +2,8 @@
     ViewData["Title"] = "Index";
 }
 
-<div>
-    <h1>Index</h1>
-    <p>Bienvenidos al sitio web de NombreProyecto</p>
-</div>
+<form method="post" action="/Home/Perfil">
+    <input type="text" name="nombreUsuario" placeholder="Usuario" required />
+    <input type="password" name="contraseña" placeholder="Contraseña" required />
+    <button type="submit">Iniciar Sesión</button>
+</form>
