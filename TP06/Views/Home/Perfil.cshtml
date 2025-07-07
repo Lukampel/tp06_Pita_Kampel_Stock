@@ -1,10 +1,10 @@
 @model Integrante
 
-<h2>Bienvenido, @Model.NombreUsuario</h2>
+<h2>Bienvenido/a, @ViewBag.Usuario.NombreUsuario</h2>
 <ul>
-    <li>Fecha Nacimiento: @Model.FechaNacimiento</li>
-    <li>Hobby: @Model.Hobby</li>
-    <li>Deporte: @Model.Deporte</li>
-    <li>Color Favorito: @Model.ColorFav</li>
-    <li>Película Favorita: @Model.PeliculaFav</li>
+    <li>Fecha Nacimiento: @ViewBag.Usuario.FechaNacimiento</li>
+    <li>Hobby: @ViewBag.Usuario.Hobby</li>
+    <li>Deporte: @ViewBag.Usuario.Deporte</li>
+    <li>Color Favorito: @ViewBag.Usuario.ColorFav</li>
+    <li>Película Favorita: @ViewBag.Usuario.PeliculaFav</li>
 </ul>

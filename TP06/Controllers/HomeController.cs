@@ -18,16 +18,17 @@ public class HomeController : Controller
         ViewBag.Mensaje = "Ingrese";
         return View();
     }
-    public IActionResult Perfil(string nombreUsuario, string contraseña)
+    public IActionResult Perfil(string nombreUsuario, string contrasena)
     {
         Integrante integrantePerfil = new Integrante();
-        integrantePerfil = BD.LevantarIntegrante(nombreUsuario);
-        if(integrantePerfil != null && integrantePerfil.InicioSesion(nombreUsuario, contraseña)){
+        integrantePerfil = BaseDeDatos.LevantarIntegrante(nombreUsuario);
+        ViewBag.Usuario=integrantePerfil;
+        if(integrantePerfil != null && integrantePerfil.InicioSesion(contrasena)){
             return View("Perfil");
         }
         else{
 
-            return View("View");
+            return View("Index");
         }
     }
     

@@ -9,6 +9,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\PROG 25'\\TP06_Pita_Kampel\\TP06\\wwwroot\\img\\Joaco.jpg",
+      "PackagePath": "staticwebassets\\img\\Joaco.jpg"
+    },
+    {
+      "Id": "Z:\\PROG 25'\\TP06_Pita_Kampel\\TP06\\wwwroot\\img\\Lu.jpg",
+      "PackagePath": "staticwebassets\\img\\Lu.jpg"
+    },
+    {
+      "Id": "Z:\\PROG 25'\\TP06_Pita_Kampel\\TP06\\wwwroot\\img\\Rami.jpg",
+      "PackagePath": "staticwebassets\\img\\Rami.jpg"
+    },
+    {
       "Id": "Z:\\PROG 25'\\TP06_Pita_Kampel\\TP06\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

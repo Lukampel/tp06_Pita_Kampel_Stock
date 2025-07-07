@@ -1,7 +1,7 @@
 public class Integrante
 {
     public string NombreUsuario { get; set; }
-    public string Contraseña { get; private set; }
+    public string Contrasena { get; private set; }
      public string Foto { get; private set; }
     public DateTime FechaNacimiento { get; set; }
     public string Hobby { get; set; }
@@ -9,8 +9,11 @@ public class Integrante
     public string ColorFav { get; set; }
     public string PeliculaFav { get; set; }
 
-    public bool InicioSesion(string nombreUsuarioIngresado, string ContraseñaIngresada)
+    public bool InicioSesion(string ContrasenaIngresada)
     {
-        return (NombreUsuario == nombreUsuarioIngresado && Contraseña == ContraseñaIngresada);
+        Console.WriteLine(Contrasena);
+        Console.WriteLine(ContrasenaIngresada);
+        return (Contrasena == ContrasenaIngresada);
+
     }
 }
