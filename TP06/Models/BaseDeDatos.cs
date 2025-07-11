@@ -21,7 +21,7 @@ public static class BaseDeDatos
         Integrante miIntegrante = null;
         using (SqlConnection connection = new SqlConnection(_connectionString))
         {
-            string query = "SELECT * FROM Integrantes WHERE NombreUsuario = @nombreUsuario";
+            string query = @"SELECT NombreUsuario, contraseña AS Contrasena, FechaNacimiento, Hobby, Deporte, ColorFav, PeliculaFav FROM Integrantes WHERE NombreUsuario = @nombreUsuario";
             miIntegrante = connection.QueryFirstOrDefault<Integrante>(query, new {@nombreUsuario = nombreUsuario} );
             Console.WriteLine(miIntegrante.NombreUsuario);
         }

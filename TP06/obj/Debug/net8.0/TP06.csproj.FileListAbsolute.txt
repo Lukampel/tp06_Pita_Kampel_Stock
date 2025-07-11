@@ -1,12 +1,3 @@
-Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.csproj.AssemblyReference.cache
-Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.GeneratedMSBuildEditorConfig.editorconfig
-Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.AssemblyInfoInputs.cache
-Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.AssemblyInfo.cs
-Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.csproj.CoreCompileInputs.cache
-Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.MvcApplicationPartsAssemblyInfo.cache
-Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.RazorAssemblyInfo.cache
-Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.RazorAssemblyInfo.cs
-Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.sourcelink.json
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\appsettings.Development.json
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\appsettings.json
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\TP06.staticwebassets.runtime.json
@@ -23,6 +14,8 @@ Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dl
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\Microsoft.Identity.Client.dll
@@ -34,6 +27,7 @@ Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\Microsoft.IdentityModel.Proto
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\Newtonsoft.Json.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\System.ClientModel.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
@@ -41,6 +35,7 @@ Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\System.IdentityModel.Tokens.J
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\System.Memory.Data.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
@@ -61,6 +56,15 @@ Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\runtimes\win-x64\native\Micro
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.csproj.AssemblyReference.cache
+Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.GeneratedMSBuildEditorConfig.editorconfig
+Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.AssemblyInfoInputs.cache
+Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.AssemblyInfo.cs
+Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.csproj.CoreCompileInputs.cache
+Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.MvcApplicationPartsAssemblyInfo.cache
+Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.RazorAssemblyInfo.cache
+Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.RazorAssemblyInfo.cs
+Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\TP06.sourcelink.json
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\staticwebassets.build.json
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\staticwebassets.development.json
 Z:\PROG 25'\TP06_Pita_Kampel\TP06\obj\Debug\net8.0\staticwebassets\msbuild.TP06.Microsoft.AspNetCore.StaticWebAssets.props
