@@ -21,9 +21,9 @@ public class HomeController : Controller
     }
     [HttpPost]
    [HttpPost]
-public IActionResult Perfil(string nombreUsuario, string contrasena)
+public IActionResult Perfil(string NombreUsuario, string contrasena)
 {
-    var integrantePerfil = BaseDeDatos.LevantarIntegrante(nombreUsuario);
+    var integrantePerfil = BaseDeDatos.LevantarIntegrante(NombreUsuario);
 
     if (integrantePerfil != null && integrantePerfil.InicioSesion(contrasena))
     {
@@ -41,25 +41,27 @@ public IActionResult Perfil(string nombreUsuario, string contrasena)
 
         public IActionResult PerfilSesion()
     {
-        var nombreUsuario = HttpContext.Session.GetString("NombreUsuario");
+        var NombreUsuario = HttpContext.Session.GetString("NombreUsuario");
 
-        if (string.IsNullOrEmpty(nombreUsuario))
+        if (string.IsNullOrEmpty(NombreUsuario))
         {
             return RedirectToAction("Index");
         }
 
-        Integrante integrantePerfil = BaseDeDatos.LevantarIntegrante(nombreUsuario);
+        Integrante integrantePerfil = BaseDeDatos.LevantarIntegrante(NombreUsuario);
         ViewBag.Usuario = integrantePerfil;
 
         return View("Perfil");
     }
 
 
-    public IActionResult Logout()
-    {
-        HttpContext.Session.Clear();
-        return RedirectToAction("Index");
-    }
+[HttpPost]
+public IActionResult Logout()
+{
+    HttpContext.Session.Clear();
+    return RedirectToAction("Index");
 }
+}
+
     
 

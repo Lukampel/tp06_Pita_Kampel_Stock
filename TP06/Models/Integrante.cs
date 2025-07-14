@@ -2,7 +2,6 @@ public class Integrante
 {
     public string NombreUsuario { get; set; }
     public string Contrasena { get; set; }
-
     public DateTime FechaNacimiento { get; set; }
     public string Hobby { get; set; }
     public string Deporte { get; set; }
